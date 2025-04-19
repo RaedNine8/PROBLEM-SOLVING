@@ -1,0 +1,22 @@
+Public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        // === Input ===
+        // Example: read a single line
+        // String s = in.nextLine();
+        
+        // Example: read two integers
+        // int n = in.nextInt();
+        // int m = in.nextInt();
+
+        // === Logic ===
+        // TODO: paste your problem-specific logic here.
+        
+        // === Output ===
+        // Example: print a result
+        // System.out.println(result);
+
+        in.close();
+    }
+}

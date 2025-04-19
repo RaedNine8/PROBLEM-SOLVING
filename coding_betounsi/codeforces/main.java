@@ -1,4 +1,5 @@
 import queue_and_stack_contest.ProblemH;
+import queue_and_stack_contest.ProblemG;
 import java.io.*;
 import java.nio.file.*;
 import java.util.Scanner;
@@ -17,6 +18,9 @@ public class Main{
         switch (problem) {
             case "H":
                 ProblemH.solve(in, out);
+                break;
+            case "G":
+                ProblemG.solve(in,out);
                 break;
             // case "A": ProblemA.solve(in, out); break;
             // case "B": ProblemB.solve(in, out); break;

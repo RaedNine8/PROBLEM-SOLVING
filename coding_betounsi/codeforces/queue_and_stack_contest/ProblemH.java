@@ -1,3 +1,4 @@
+package queue_and_stack_contest;
 
 import java.io.PrintStream;
 import java.util.ArrayDeque;

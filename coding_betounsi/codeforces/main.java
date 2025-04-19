@@ -1,5 +1,6 @@
 import queue_and_stack_contest.ProblemH;
 import queue_and_stack_contest.ProblemG;
+import queue_and_stack_contest.ProblemF;
 import java.io.*;
 import java.nio.file.*;
 import java.util.Scanner;
@@ -21,6 +22,9 @@ public class Main{
                 break;
             case "G":
                 ProblemG.solve(in,out);
+                break;
+            case "F":
+                ProblemF.solve(in,out);
                 break;
             // case "A": ProblemA.solve(in, out); break;
             // case "B": ProblemB.solve(in, out); break;

@@ -20,7 +20,7 @@ public class ProblemF {
      Deque<Character> stack = new ArrayDeque();
      int t = 0;
     for(char c : s.toCharArray()){
-       if(!stack.isEmpty() && c  == key){
+       if(!stack.isEmpty() && c  == key && stack.peek() != key ){
           stack.pop();
           t+=2;
        }else{
